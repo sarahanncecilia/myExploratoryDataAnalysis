@@ -1,0 +1,8 @@
+So first, let’s set up a situation where we have a local project that isn’t under version control. Go to File > New Project > New Directory > New Project and name your project. Since we are trying to emulate a time where you have a project not currently under version control, do NOT click “Create a git repository”. Click Create Project.
+
+
+# Creating a project that is not under version control
+
+We’ve now created an R Project that is not currently under version control. Let’s fix that. First, let’s set it up to interact with Git. Open Git Bash or Terminal and navigate to the directory containing your project files. Move around directories by typing cd ~/dir/name/of/path/to/file
+
+When the command prompt in the line before the dollar sign says the correct directory location of your project, you are in the correct location. Once here, type git init followed by git add . - this initializes (init) this directory as a git repository and adds all of the files in the directory (.) to your local repository. Commit these changes to the git repository using git commit -m "Initial commit"
